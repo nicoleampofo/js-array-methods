@@ -14,6 +14,25 @@ function filterMethod(){
     document.getElementById("filterDisplay").innerHTML = filteredItems.length;
 }
 
+// The reduce method
+function reduceMethod(){
+  let inputValue = document.getElementById("reduceInput").value;
+  console.log(inputValue)
+  // let currentTotal = inputValue.reduce((currentTotal, inputValue) => {
+  //   return inputValue + currentTotal
+  // }, 0
+  // );
+  // document.getElementById("reduceDisplay").innerHTML = currentTotal;
+  // console.log(currentTotal)
+}
+
+// let total = bears.reduce((currentTotal, bear) => {
+//   return bear.price + currentTotal
+// }, 0
+// )
+// console.log(total)
+
+// template
 function lengthMethod(){
     let inputValue = document.getElementById("word").value;
     let lengthOfWord = inputValue.length;
