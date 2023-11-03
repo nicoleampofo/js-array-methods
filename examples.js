@@ -28,7 +28,7 @@ function reduceMethod(){
 let total = bears.reduce(
   (currentTotal, bear) => {
     return bear.price + currentTotal
-}, 0
+  }, 0
 )
 
 // template
