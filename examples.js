@@ -25,11 +25,11 @@ function reduceMethod(){
   // console.log(currentTotal)
 }
 
-let total = bears.reduce((currentTotal, bear) => {
-  return bear.price + currentTotal
+let total = bears.reduce(
+  (currentTotal, bear) => {
+    return bear.price + currentTotal
 }, 0
 )
-console.log(total)
 
 // template
 function lengthMethod(){
